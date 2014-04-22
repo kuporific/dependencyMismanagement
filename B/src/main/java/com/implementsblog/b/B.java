@@ -2,13 +2,10 @@ package com.implementsblog.b;
 
 import com.implementsblog.a.A;
 
-/**
- * @author Justin Rogers
- */
 public class B
 {
     public static String call()
     {
-        return A.call();
+        return "B-1.0.0 -> " + A.call();
     }
 }

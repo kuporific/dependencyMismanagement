@@ -3,14 +3,11 @@ package com.implementsblog.c;
 import com.implementsblog.a.A;
 import com.implementsblog.b.B;
 
-/**
- * @author Justin Rogers
- */
 public class C
 {
-    public static void main(String[] args)
+    public static String call()
     {
-        System.out.println(A.call());
-        System.out.println(B.call());
+        return "C-1.0.0 -> " + A.call() + "\n"
+             + "C-1.0.0 -> " + B.call();
     }
 }
