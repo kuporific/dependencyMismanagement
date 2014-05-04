@@ -2,3 +2,6 @@
 .idea/
 out/
 *.iml
+
+# maven generated files and directories
+target/
