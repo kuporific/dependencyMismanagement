@@ -1,0 +1,9 @@
+package com.implementsblog.b;
+
+import com.implementsblog.a.A;
+
+public class B {
+    public static String call() {
+        return "B-1.0.1 -> " + A.call("");
+    }
+}
