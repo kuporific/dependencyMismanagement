@@ -1,3 +1,5 @@
+<img src="dependencies.png"/>
+
 This stage contains all three modules at version 1.0.1 with the Maven build
 system. This depends on the outputs of Stage 1 (<code>maven/stage1$ <strong>mvn
 install</strong></code>).

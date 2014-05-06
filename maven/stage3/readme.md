@@ -1,3 +1,5 @@
+<img src="dependencies.png"/>
+
 This stage contains the modules `A-2.0.0`, `B-1.0.2`, and `C-1.0.2` built with
 the Maven build system. This depends on the outputs of Stage 1
 (<code>maven/stage1$ <strong>mvn install</strong></code>) and Stage 2

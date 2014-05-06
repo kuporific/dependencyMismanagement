@@ -1,3 +1,5 @@
+<img src="dependencies.png"/>
+
 This stage contains all three modules at version 1.0.0 with the Maven build
 system.
 
