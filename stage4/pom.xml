@@ -7,9 +7,8 @@
     <groupId>com.implementsblog.runtimeerrors</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <modules>
-        <module>A</module>
         <module>B</module>
         <module>C</module>
     </modules>
