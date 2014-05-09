@@ -4,6 +4,6 @@ import com.implementsblog.a.A;
 
 public class B {
     public static String call() {
-        return "B-1.0.1 -> " + A.call("");
+        return "B-1.0.2 -> " + A.call("");
     }
 }
