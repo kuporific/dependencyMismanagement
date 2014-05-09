@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+project.group = 'com.implementsblog.runtimeerrors'
+project.version = '1.0.0'
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}

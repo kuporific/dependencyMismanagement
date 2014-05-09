@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+apply plugin: 'application'
+
+project.mainClassName = 'com.implementsblog.c.C'
+
+project.group = 'com.implementsblog.runtimeerrors'
+project.version = '1.0.3'
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    compile(
+        'com.implementsblog.runtimeerrors:A:2.0.0',
+        'com.implementsblog.runtimeerrors:B:1.0.3'
+    )
+}

@@ -5,3 +5,7 @@ out/
 
 # maven generated files and directories
 target/
+
+# gradle generated files and directories
+.gradle/
+build/
