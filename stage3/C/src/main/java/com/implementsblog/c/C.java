@@ -5,7 +5,7 @@ import com.implementsblog.b.B;
 
 public class C {
     public static String call() {
-        return "C-1.0.3 -> " + A.call() + "\n"
+        return "C-1.0.3 -> " + A.call("") + "\n"
              + "C-1.0.3 -> " + B.call();
     }
 
