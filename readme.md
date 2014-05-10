@@ -4,6 +4,8 @@ This directory contains a series of directories that represents the evolving
 state of a small set of modules, `A`, `B`, and `C`, where the dependency graph
 looks like this:
 
+<img src="stage0/dependencies.png" style="margin-left:auto;margin-right:auto;"/>
+
 Each stage marks a time when a new version of one or more of the modules has 
 been released. Each `stage` directory contains an image of the dependency tree
 that includes versions specific to that stage. In later stages (`stage2/` and

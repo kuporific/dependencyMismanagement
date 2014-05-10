@@ -1,6 +1,6 @@
 # Stage 1
 
-<img src="dependencies.png"/>
+<img src="dependencies.png" style="margin-left:auto;margin-right:auto;"/>
 
 ## Maven
 
